@@ -3,7 +3,7 @@ A. we need to create a env
 1. conda create -p venv python=3.8 -y
 2.conda activate ./venv
 
-3.selet py interpretor 
+3.selet
 
 
 B. Git initialization
