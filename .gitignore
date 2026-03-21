@@ -8,8 +8,27 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 *.egg-info/
+
 # Environment variables
 .env
 
 # OS files
 .DS_Store
+
+# ML artifacts
+/artifacts
+
+# Logs
+logs/
+*.log
+
+# Model files
+*.pkl
+*.joblib
+
+# Data (optional)
+*.csv
+
+# Build files
+build/
+dist/
