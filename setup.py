@@ -2,7 +2,7 @@ from setuptools import find_packages,setup
 
 from typing import List
 
-HYPEN='-e .'
+SETUP_HYPEN='-e .'
 
 def get_req(file_path:str)->List[str]:
 
@@ -12,8 +12,8 @@ def get_req(file_path:str)->List[str]:
         require=file_obj.readlines()
         require=[req.replace("\n","")for req in require]
 
-        if HYPEN in require:
-            require.remove(HYPEN)
+        if SETUP_HYPEN in require:
+            require.remove(SETUP_HYPEN)
 
     return require
 
